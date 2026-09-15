@@ -383,7 +383,51 @@ git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/
 # level28to29
 ## solution
 ssh -p 2220 bandit29@bandit.labs.overthewire.org
-xxxxxxxxxx
+Em7eGtqaMySwNFjCpwzzHhLhospOcdt0
 ## process
 git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
 
+# level29to30
+## solution
+ssh -p 2220 bandit30@bandit.labs.overthewire.org
+jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX
+## process
+git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
+
+# level30to31
+## solution
+ssh -p 2220 bandit31@bandit.labs.overthewire.org
+82NkymblpGBYmIXG6ZQ8YldBYstHpfUf
+## process
+git clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
+
+D:\constructing_projects\bandit\repo>git rev-parse secret
+6a76bc87a774031428feb5cc910568293c335545
+
+D:\constructing_projects\bandit\repo>git fetch origin 6a76bc87a774031428feb5cc910568293c335545
+
+D:\constructing_projects\bandit\repo>git show 6a76bc87a774031428feb5cc910568293c335545
+82NkymblpGBYmIXG6ZQ8YldBYstHpfUf
+
+# level31to32
+## solution
+ssh -p 2220 bandit32@bandit.labs.overthewire.org
+pWuj5jBQ6IgV0NXwiH6g1pXRF8S1YvbT
+## process
+
+
+# level32to33
+
+## solution
+ssh -p 2220 bandit33@bandit.labs.overthewire.org
+u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM
+## process
+
+WELCOME TO THE UPPERCASE SHELL
+>> $0
+$ ls
+uppershell
+$ whoami
+bandit33
+$ cat /etc/bandit_pass/bandit33
+u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM
